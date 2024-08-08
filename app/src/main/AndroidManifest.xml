@@ -21,9 +21,6 @@
         <activity
             android:name=".ChatBotActivity"
             android:exported="false" />
-        <activity
-            android:name=".InformationActivity"
-            android:exported="false" />
 
         <activity
             android:name=".InfoActivity"
