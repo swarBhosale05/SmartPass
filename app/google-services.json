@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "546316407952",
+    "project_id": "smartpassapp-3614",
+    "storage_bucket": "smartpassapp-3614.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546316407952:android:73e5a9ce946c17616db415",
+        "android_client_info": {
+          "package_name": "com.ebuspass.smartpassapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOz2d3_QmU7a4_ilMrZw6xD0tv4RwSeDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

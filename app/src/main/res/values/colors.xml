@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_text_color">#000000</color>
+    <color name="main_color">#005c99</color>
+    <color name="editTextBg">#ededed</color>
+    <color name="colorUserMessageBackground">#005c99</color>
+    <color name="colorBotMessageBackground">#C6C6C6</color>
+</resources>

@@ -1,0 +1,30 @@
+<!-- dialog_aadhaar_or_phone.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittext_design"
+        android:layout_height="wrap_content"
+        android:hint="Phone No./ Adhaar last 4 digit"
+        android:textSize="15sp"
+        android:inputType="phone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_design"
+        android:clickable="true"
+        android:text="Search Your Pass"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/main_color"
+        />
+
+</LinearLayout>

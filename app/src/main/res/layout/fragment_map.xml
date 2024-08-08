@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp">
+    <EditText
+        android:id="@+id/editTextSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Source"
+        android:background="@drawable/edittext_design"/>
+    <EditText
+        android:id="@+id/editTextDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+        android:background="@drawable/edittext_design"
+        android:layout_below="@id/editTextSource"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/buttonGetDirections"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get route"
+        android:background="@drawable/edittext_design"
+        android:layout_below="@id/editTextDestination"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+</LinearLayout>

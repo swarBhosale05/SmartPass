@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/createPass"
+        android:icon="@drawable/create_pass"
+        android:title="" />
+    <item
+        android:id="@+id/displayPass"
+        android:icon="@drawable/display_pass"
+        android:title="" />
+    <item
+        android:id="@+id/route"
+        android:icon="@drawable/route"
+        android:title="" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="" />
+
+</menu>
