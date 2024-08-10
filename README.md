@@ -1,6 +1,10 @@
 # SmartPass 
+Streamline the process of creating and managing digital bus passes
+
+![cover](https://github.com/user-attachments/assets/775533e9-a7ac-433d-9f1e-078f5be484d0)
 
 ## 📜Description 
+
 
 **SmartPass** is an Android application developed using Kotlin to facilitate managing and generating digital bus passes easier. It ensures quick and easy access when needed by allowing users to create and store passes for PMC, PCMC, and PMPML services with simplicity. The application, which has a user-friendly interface for entering required data, provides a seamless, ecofriendly alternative for traditional passes. Passes can be obtained immediately, along with a QR code that allows ticket checkers to digitally and quickly verify them.
 
@@ -34,8 +38,13 @@
    - The QR code can be scanned using the Ticket Checker’s app for verification.
 
 
-## 📸 Screenshots
+## 📸 Screenshots and Videos
+### Login and Register Screen
+### Generate Pass Screen
+### Display Pass Screen
+### Verification of Pass using Ticket Checker's App
+### Get Route Screen
 
-_(Add screenshots of your app here)_
+
 
 
