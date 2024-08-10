@@ -9,6 +9,7 @@ import com.google.firebase.database.FirebaseDatabase
 import kotlinx.coroutines.tasks.await
 import java.util.Calendar
 import java.util.concurrent.TimeUnit
+
 class DeleteDataWorker(context: Context, params: WorkerParameters) :
     CoroutineWorker(context, params) {
     override suspend fun doWork(): Result {
@@ -25,15 +26,14 @@ class DeleteDataWorker(context: Context, params: WorkerParameters) :
         }
     }
 }
+
 fun scheduleDataDeletionWork() {
     val workRequest = PeriodicWorkRequestBuilder<DeleteDataWorker>(
-        repeatInterval = 1,
-        repeatIntervalTimeUnit = TimeUnit.DAYS
-    )
-        .setInitialDelay(calculateInitialDelay(), TimeUnit.MILLISECONDS)
-        .build()
+        repeatInterval = 1, repeatIntervalTimeUnit = TimeUnit.DAYS
+    ).setInitialDelay(calculateInitialDelay(), TimeUnit.MILLISECONDS).build()
     WorkManager.getInstance().enqueue(workRequest)
 }
+
 private fun calculateInitialDelay(): Long {
     val currentTime = System.currentTimeMillis()
     val targetTime = getTargetTimeMillis()
@@ -41,6 +41,7 @@ private fun calculateInitialDelay(): Long {
     Log.d("DeletePasses", "Initial delay for data deletion: $initialDelay ms")
     return initialDelay
 }
+
 private fun getTargetTimeMillis(): Long {
     val now = Calendar.getInstance()
     val targetTime = Calendar.getInstance().apply {
