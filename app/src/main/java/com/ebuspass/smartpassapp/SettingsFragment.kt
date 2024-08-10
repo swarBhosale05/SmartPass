@@ -22,9 +22,7 @@ class SettingsFragment : Fragment() {
             startActivity(Intent(requireContext(), InfoActivity::class.java))
             requireActivity().finish()
         }
-        binding.chatbotButton.setOnClickListener {
-            startActivity(Intent(requireActivity(),ChatBotActivity::class.java))
-        }
+
         return binding.root
     }
 }
