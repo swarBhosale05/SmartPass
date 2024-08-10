@@ -39,27 +39,17 @@ Streamline the process of creating and managing digital bus passes
 
 
 ## 📸 Screenshots and Videos
-<table>
-  <tr>
-    <td><img src="https://github.com/swarBhosale05/SmartPass/blob/master/media/login.jpg" alt="Login Screen" width="200"></td>
-    <td><img src="https://github.com/swarBhosale05/SmartPass/blob/master/media/register.jpg" alt="Register Screen" width="200"></td>
-    <td><img src="https://github.com/swarBhosale05/SmartPass/blob/master/media/generate.jpg" alt="Generate Pass Screen" width="200"></td>
-    <td><img src="https://github.com/swarBhosale05/SmartPass/blob/master/media/display.jpg" alt="Display Pass Screen" width="200"></td>
-  </tr>
-  <tr>
-    <td>Login Screen</td>
-    <td>Register Screen</td>
-    <td>Generate Pass Screen</td>
-    <td>Display Pass Screen</td>
-  </tr>
-</table>
-### Verification of Pass using Ticket Checker's App
 
-https://github.com/user-attachments/assets/acca94e2-cd4d-436f-a958-9ee083cb8c06
+| ![Login Screen](https://github.com/swarBhosale05/SmartPass/blob/master/media/login.jpg) | ![Register Screen](https://github.com/swarBhosale05/SmartPass/blob/master/media/register.jpg) | ![Generate Pass Screen](https://github.com/swarBhosale05/SmartPass/blob/master/media/generate.jpg) | ![Display Pass Screen](https://github.com/swarBhosale05/SmartPass/blob/master/media/display.jpg) |
+|:---:|:---:|:---:|:---:|
+| Login Screen | Register Screen | Generate Pass Screen | Display Pass Screen |
 
+### 🎥 Verification of Pass using Ticket Checker's App
 
+https://github.com/user-attachments/assets/7d75f08e-5c86-472b-99bd-74529db68cbe
 
-
+## 📄 License
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
 
 
 
