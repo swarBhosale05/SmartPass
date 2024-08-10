@@ -51,5 +51,9 @@ https://github.com/user-attachments/assets/7d75f08e-5c86-472b-99bd-74529db68cbe
 ## 📄 License
 This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
 
+## Connect with me
+
+[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/abhaysing-bhosale/](https://www.linkedin.com/in/swarada-bhosale-167754247/))
+
 
 
