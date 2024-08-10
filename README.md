@@ -1,7 +1,7 @@
 # SmartPass 
 Streamline the process of creating and managing digital bus passes
 
-![cover](https://github.com/user-attachments/assets/775533e9-a7ac-433d-9f1e-078f5be484d0)
+![cover](https://github.com/swarBhosale05/SmartPass/blob/master/media/cover.jpg)
 
 ## 📜Description 
 
@@ -39,11 +39,26 @@ Streamline the process of creating and managing digital bus passes
 
 
 ## 📸 Screenshots and Videos
-### Login and Register Screen
-### Generate Pass Screen
-### Display Pass Screen
+<table>
+  <tr>
+    <td><img src="https://github.com/swarBhosale05/SmartPass/blob/master/media/login.jpg" alt="Login Screen" width="200"></td>
+    <td><img src="https://github.com/swarBhosale05/SmartPass/blob/master/media/register.jpg" alt="Register Screen" width="200"></td>
+    <td><img src="https://github.com/swarBhosale05/SmartPass/blob/master/media/generate.jpg" alt="Generate Pass Screen" width="200"></td>
+    <td><img src="https://github.com/swarBhosale05/SmartPass/blob/master/media/display.jpg" alt="Display Pass Screen" width="200"></td>
+  </tr>
+  <tr>
+    <td>Login Screen</td>
+    <td>Register Screen</td>
+    <td>Generate Pass Screen</td>
+    <td>Display Pass Screen</td>
+  </tr>
+</table>
 ### Verification of Pass using Ticket Checker's App
-### Get Route Screen
+
+https://github.com/user-attachments/assets/acca94e2-cd4d-436f-a958-9ee083cb8c06
+
+
+
 
 
 
