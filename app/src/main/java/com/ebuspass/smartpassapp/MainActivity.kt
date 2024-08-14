@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.ebuspass.smartpassapp.databinding.ActivityMainBinding
-import com.google.android.material.bottomnavigation.BottomNavigationView
+
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     @SuppressLint("ResourceType")
@@ -16,13 +16,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         Log.d("DeletePasses", "Scheduling data deletion work...")
         scheduleDataDeletionWork()
-        val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottomNav)
         loadFragment(PassCreateFragment())
         val colorStateList =
             ContextCompat.getColorStateList(this, R.drawable.nav_item_selected_color)
-        bottomNavigationView.itemIconTintList = colorStateList
-        bottomNavigationView.itemTextColor = colorStateList
-        bottomNavigationView.setOnNavigationItemSelectedListener { menuItem ->
+        binding.bottomNav.itemIconTintList = colorStateList
+        binding.bottomNav.itemTextColor = colorStateList
+        binding.bottomNav.setOnNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.createPass -> {
                     loadFragment(PassCreateFragment().apply {
