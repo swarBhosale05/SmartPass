@@ -54,7 +54,6 @@ class InfoActivity : AppCompatActivity() {
                 }
             }
         dataBase = FirebaseDatabase.getInstance().getReference("Users")
-        dataBaseTc = FirebaseDatabase.getInstance().getReference("TicketChecker")
         binding.animationView.playAnimation()
         binding.animationView.repeatCount = LottieDrawable.INFINITE
         val registerDialog = BottomSheetDialog(this)
